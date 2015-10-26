@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/LittleHelicase/dynatype-translator-graph#readme",
   "standard": {
-    "parser": "eslint-babel"
+    "parser": "babel-eslint"
   },
   "devDependencies": {
     "babel": "^5.8.29",

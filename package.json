@@ -1,5 +1,5 @@
 {
-  "name": "dynatype-translator-graph",
+  "name": "@buggy1/dynatype-translator-graph",
   "version": "0.1.0",
   "description": "Graph creator for dynatype translators",
   "main": "lib/graph.js",

@@ -19,9 +19,9 @@ describe('Translator Graph', function () {
     expect(graph.nodes()).to.have.length(3)
     expect(graph.edges()).to.have.length(2)
     // edge propriety
-    expect(graph.hasEdge('A','B')).to.be.true
-    expect(graph.hasEdge('C','B')).to.be.true
-    expect(graph.hasEdge('A','C')).to.be.false
-    expect(graph.hasEdge('B','C')).to.be.false
+    expect(graph.hasEdge('A', 'B')).to.be.true
+    expect(graph.hasEdge('C', 'B')).to.be.true
+    expect(graph.hasEdge('A', 'C')).to.be.false
+    expect(graph.hasEdge('B', 'C')).to.be.false
   })
 })
